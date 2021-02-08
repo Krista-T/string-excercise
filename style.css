@@ -1,0 +1,24 @@
+#interface {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 5px;
+}
+
+#input,
+#dropdown,
+#output {
+  display: flex;
+  width: 18rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0.5px solid grey;
+}
+
+#result {
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
