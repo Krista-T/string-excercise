@@ -15,20 +15,40 @@
         placeholder="enter input"
         id="input"
       />
+     
 
       <select id="dropdown">
-        <option value="">a</option>
-        <option value="b">b</option>
-        <option value="c">c</option>
-        <option value="d">d</option>
-        <option value="e"></option>
-        <option value=""></option>
-        <option value=""></option>
+        <!-- <option value="">select from list</option> -->
+        <option value="a">
+          If input is a first name: Make the first character in a name
+          uppercase, and the rest lowercase
+        </option>
+        <option value="b">If input is a full name: Find the first name</option>
+        <option value="c">
+          If input is a full name: Find the length of the first name
+        </option>
+        <option value="d">
+          If input is a full name: Find the middle name start and end position,
+          and the middle name itself in a full name string
+        </option>
+        <option value="e">
+          If input is a filename: Check if a filename is .png or .jpg
+        </option>
+        <option value="f">
+          If input is a password: Hide a password with the correct number of *s
+        </option>
+        <option value="g">
+          With any input: Make the third character uppercase
+        </option>
+        <option value="h">
+          With any input: Make a character uppercase, if it follows a space or a
+          hyphen
+        </option>
       </select>
 
       <input type="text" name="output" placeholder="see results" id="output" />
-
-      <button id="result">generate output</button>
+      <span class= "close">&#10005</span>
+      <button id="result">GENERATE OUTPUT</button>
     </section>
 
     <script src="script.js"></script>

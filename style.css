@@ -11,14 +11,29 @@
 #dropdown,
 #output {
   display: flex;
-  width: 18rem;
+  width: 45vw;
   padding: 5px;
   border-radius: 5px;
   border: 0.5px solid grey;
+  cursor: pointer;
 }
 
 #result {
+  font-size: 0.8rem;
   border-radius: 5px;
   padding: 10px;
   border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.close {
+  position: absolute;
+  top: 83px;
+  left: 70.5%;
+  font-size: 0.8rem;
+  cursor: pointer;
 }
