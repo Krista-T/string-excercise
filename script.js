@@ -39,6 +39,7 @@ document.querySelector("#result").addEventListener("click", () => {
   }
   if (dropdown.value === "h") {
     output.value = "i don´t work";
+    //I AM STUCK HERE
     let space = input.value.split(" ");
 
     space.forEach((firstLetter) => {
