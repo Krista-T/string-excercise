@@ -45,6 +45,7 @@ document.querySelector("#result").addEventListener("click", () => {
     space.forEach((firstLetter) => {
       const capital = firstLetter.charAt(0).toUpperCase();
       console.log(capital);
+      console.log(space.join(" "));
     });
   }
 });
